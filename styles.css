@@ -1,0 +1,110 @@
+html {
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input {
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 5px;
+  margin: 2px;
+  border: none;
+}
+
+.entry-name-cell, {
+  border: 1px solid #ccc;
+  border-width: 0 1px;
+}
+
+.player-name {
+  width: 120px;
+}
+
+.entry-round-input {
+  text-align: center;
+  width: 80px;
+}
+
+.winner {
+  background-color: #88ff88;
+}
+
+#entry-header {
+  border-bottom: 2px solid #ccc;
+}
+
+.pos {
+  color: #55cc55;
+  float: left;
+  max-width: 45%;
+}
+
+.neg {
+  color: #cc5555;
+  float: right;
+  text-align: right;
+  max-width: 45%;
+}
+
+#scores {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#scores-values {
+  width: 100%;
+}
+
+.scores-values {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid #ccc;
+}
+
+.scores-headings {
+  font-weight: bold;
+}
+
+.scores-player {
+  width: 25%;
+}
+
+.scores-player > div:last-child {
+  border-right: 2px solid #ccc;
+}
+
+.scores-player:nth-of-type(4n) > div:last-child {
+  border-right: none;
+}
+
+.scores-values .scores-player > div:last-child {
+  height: 110px;
+}
+
+.scores-values:first-of-type .scores-player > div:last-child {
+  height: 88px;
+}
+
+.scores-values:last-child .scores-player > div:last-child {
+  height: 42px;
+}
+
+.scores-name {
+  text-align: center;
+}
+
+.scores-player > div {
+  box-sizing: border-box;
+  padding: 8px 10px;
+}
+
+.total {
+  color: black;
+  font-weight: bold;
+}
